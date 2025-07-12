@@ -1,0 +1,15 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\bin\Debug\net9.0\ProjetoConsoleCursoVideo.exe
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\bin\Debug\net9.0\ProjetoConsoleCursoVideo.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\bin\Debug\net9.0\ProjetoConsoleCursoVideo.runtimeconfig.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\bin\Debug\net9.0\ProjetoConsoleCursoVideo.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\bin\Debug\net9.0\ProjetoConsoleCursoVideo.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.sourcelink.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\refint\ProjetoConsoleCursoVideo.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ProjetoConsoleCursoVideo.genruntimeconfig.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\ProjetoConsoleCursoVideo\ProjetoConsoleCursoVideo\obj\Debug\net9.0\ref\ProjetoConsoleCursoVideo.dll
