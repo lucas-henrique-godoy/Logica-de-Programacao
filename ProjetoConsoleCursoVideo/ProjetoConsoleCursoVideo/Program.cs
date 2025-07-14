@@ -1,23 +1,23 @@
 ﻿
-string nomeCompleto = "Lucas Godoy";
-string numeroTelefone = "11-96862-0740";
+Console.WriteLine("Digite a sua idade");
+int idade = Convert.ToInt32(Console.ReadLine());
 
-//nomeCompleto = nomeCompleto.ToUpper();
-//nomeCompleto = nomeCompleto.ToLower();
-//Console.WriteLine(nomeCompleto);
+if (idade >= 100)
+{
+    Console.WriteLine("Você é muito velho");
+}
+else if(idade >= 18)
+{
+    Console.WriteLine("Você é maior de idade");
+}
+else
+{
+    Console.WriteLine("Você é menor de idade");
+}
 
-//numeroTelefone = numeroTelefone.Replace("-", "");
-//Console.WriteLine(numeroTelefone);
+Console.WriteLine("Cheguei no final");
 
-//Console.WriteLine(nomeCompleto.Length);
-
-string primeroNome = nomeCompleto.Substring(0,6);
-string ultimoNome = nomeCompleto.Substring(6, 5);
-
-Console.WriteLine(primeroNome);
-Console.WriteLine(ultimoNome);
-
-Console.ReadKey();
+    Console.ReadKey();
 
 
 
