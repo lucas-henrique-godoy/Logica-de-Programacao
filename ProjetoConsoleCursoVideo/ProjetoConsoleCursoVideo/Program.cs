@@ -1,11 +1,14 @@
 ﻿
+Console.WriteLine("Digite o primeiro número");
+int numero1 = Convert.ToInt32(Console.ReadLine());
 
-Random random = new Random();
+Console.WriteLine("Digite o segundo número");
+int numero2 = Convert.ToInt32(Console.ReadLine());
 
-int numero = random.Next(1,70000);
-double numeroDecimal= random.NextDouble();
+int resultado = numero1 * numero2;
 
-Console.WriteLine(numeroDecimal);
+Console.WriteLine($"O resultado é : {resultado}");
+
 
 Console.ReadKey();
 
