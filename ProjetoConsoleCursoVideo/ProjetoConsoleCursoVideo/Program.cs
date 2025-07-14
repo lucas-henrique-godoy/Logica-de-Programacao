@@ -1,14 +1,21 @@
 ﻿
-Console.WriteLine("Digite o primeiro número");
-int numero1 = Convert.ToInt32(Console.ReadLine());
+string nomeCompleto = "Lucas Godoy";
+string numeroTelefone = "11-96862-0740";
 
-Console.WriteLine("Digite o segundo número");
-int numero2 = Convert.ToInt32(Console.ReadLine());
+//nomeCompleto = nomeCompleto.ToUpper();
+//nomeCompleto = nomeCompleto.ToLower();
+//Console.WriteLine(nomeCompleto);
 
-int resultado = numero1 * numero2;
+//numeroTelefone = numeroTelefone.Replace("-", "");
+//Console.WriteLine(numeroTelefone);
 
-Console.WriteLine($"O resultado é : {resultado}");
+//Console.WriteLine(nomeCompleto.Length);
 
+string primeroNome = nomeCompleto.Substring(0,6);
+string ultimoNome = nomeCompleto.Substring(6, 5);
+
+Console.WriteLine(primeroNome);
+Console.WriteLine(ultimoNome);
 
 Console.ReadKey();
 
