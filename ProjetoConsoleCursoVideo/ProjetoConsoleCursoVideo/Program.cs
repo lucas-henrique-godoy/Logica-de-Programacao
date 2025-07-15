@@ -2,28 +2,31 @@
 /*
  Operadores Lógicos
 
-&& (AND)
-|| (OR)
-!  (NOT)
+!  (NOT) Operador lógico de negaçao
  
  */
 
-Console.WriteLine("Digite sua idade");
-int idade = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Você é administrador?");
-bool admin = Convert.ToBoolean(Console.ReadLine());
-
-if (idade >= 18 || admin)
+if (!usuarioExiste)
 {
-    Console.WriteLine("Você pode entrar no sistema!");
-}
-else
-{
-    Console.WriteLine("Você não pode entrar no sistema!");
+    //retorno erro
 }
 
-    Console.ReadKey();
+if (!senhaCorreta)
+{
+    //retorno erro
+}
+
+if (emailConfirmado)
+{
+    //retorno erro
+}
+
+
+
+//estou logado
+
+Console.ReadKey();
 
 
 
