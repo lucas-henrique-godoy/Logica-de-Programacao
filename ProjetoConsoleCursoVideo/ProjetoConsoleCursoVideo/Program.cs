@@ -1,30 +1,29 @@
 ﻿
 /*
- Operadores Lógicos
 
-!  (NOT) Operador lógico de negaçao
+    while lop
  
  */
 
+Console.WriteLine("Qual seu nome?");
+string nome = Console.ReadLine();
 
-if (!usuarioExiste)
+
+while (nome == "")
 {
-    //retorno erro
+    Console.WriteLine("Qual seu nome?");
+    nome = Console.ReadLine();
 }
 
-if (!senhaCorreta)
-{
-    //retorno erro
-}
-
-if (emailConfirmado)
-{
-    //retorno erro
-}
+Console.WriteLine("Olá " + nome);
 
 
 
-//estou logado
+
+
+
+
+
 
 Console.ReadKey();
 
