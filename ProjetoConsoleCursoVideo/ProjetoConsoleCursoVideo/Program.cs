@@ -1,14 +1,13 @@
 ﻿
 //ARRAY
 
-
+// string [] frutas = new string[3];
 string[] frutas = { "Laranja", "Uva", "Limão", "Kiwi" };
 
-for(int i = 0; i < frutas.Length; i++)
+foreach (string fruta in frutas)
 {
-    Console.WriteLine(frutas[i]);
+    Console.WriteLine(fruta);
 }
-
 
 
 
