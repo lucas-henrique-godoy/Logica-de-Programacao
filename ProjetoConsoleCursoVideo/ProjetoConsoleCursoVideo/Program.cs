@@ -4,13 +4,10 @@
 
 string[] frutas = { "Laranja", "Uva", "Limão", "Kiwi" };
 
-Console.WriteLine(frutas[0]);
-
-
-
-
-
-
+for(int i = 0; i < frutas.Length; i++)
+{
+    Console.WriteLine(frutas[i]);
+}
 
 
 
