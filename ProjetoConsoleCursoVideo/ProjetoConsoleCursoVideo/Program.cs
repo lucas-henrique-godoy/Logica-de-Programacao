@@ -1,16 +1,14 @@
 ﻿
-//ARRAY
 
-// string [] frutas = new string[3];
-string[] frutas = { "Laranja", "Uva", "Limão", "Kiwi" };
+//MÉTODOS
 
-foreach (string fruta in frutas)
+
+FelizAniversario();
+
+static void FelizAniversario()
 {
-    Console.WriteLine(fruta);
+    Console.WriteLine("Happy Birthday To You!");
 }
-
-
-
 
 
 Console.ReadKey();
