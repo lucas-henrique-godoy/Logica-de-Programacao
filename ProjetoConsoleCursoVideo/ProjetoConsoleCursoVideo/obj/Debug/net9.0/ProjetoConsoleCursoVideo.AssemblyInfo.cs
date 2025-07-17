@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoConsoleCursoVideo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa9f03bcbbeec4f1bbf42dc2dcb67e3840973652")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c4c30e7db0427c146b8f4a1bbe8137023737af4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoConsoleCursoVideo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoConsoleCursoVideo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
