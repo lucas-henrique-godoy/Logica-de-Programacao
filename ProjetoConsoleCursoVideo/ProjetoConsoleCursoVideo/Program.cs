@@ -1,18 +1,27 @@
 ﻿
 
-//  Operador Ternário = O operadr ternário é uma forma curta e simples de escrever um if/else em uma única linha.
-
-Console.WriteLine("Qual sua idade?: ");
-int idade = Convert.ToInt32(Console.ReadLine());
-
-string mensagem = idade >= 18 ? "Você é de maior!" : "Você é de menor!";
-Console.WriteLine(mensagem);
+//  Array multidimensional = array com duas dimensões;
+//  Array bidimensional;
 
 
 
+int[,] numeros = new int[3, 6]
+{
+    { 1,2,3, 11, 22, 33 },
+    { 4,5,6, 55, 66, 77 },
+    { 7,8,9, 76, 85, 99 },
+    
+};
 
+for (int i = 0; i < 3; i++)
+{
+   for (int j = 0; j < 6; j++)
+   {
+        Console.Write(numeros[i,j] + " ");
+   }
 
-
+    Console.WriteLine();
+}
 
 
 
