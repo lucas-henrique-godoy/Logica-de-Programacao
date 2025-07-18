@@ -1,29 +1,64 @@
 ﻿
 
-//  Array multidimensional = array com duas dimensões;
-//  Array bidimensional;
+string[] nomes = new string[5];
+string[] telefones = new string[5];
+int quantidade = 0;
 
+bool continuar = true;
 
-
-int[,] numeros = new int[3, 6]
+while(continuar)
 {
-    { 1,2,3, 11, 22, 33 },
-    { 4,5,6, 55, 66, 77 },
-    { 7,8,9, 76, 85, 99 },
-    
-};
+    Console.WriteLine("\n --- AGENDA TELEFÔNICA ---");
+    Console.WriteLine("1 - Cadastrar contato");
+    Console.WriteLine("2 - Listar contato");
+    Console.WriteLine("3 - Sair");
 
-for (int i = 0; i < 3; i++)
-{
-   for (int j = 0; j < 6; j++)
-   {
-        Console.Write(numeros[i,j] + " ");
-   }
+    Console.Write("Escolha uma opção: ");
+    int opcao = Convert.ToInt32(Console.ReadLine());
 
-    Console.WriteLine();
+    switch(opcao)
+    {
+        case 1:
+            if(quantidade < 5)
+            {
+                Console.Write("Digite o nome: ");
+                nomes[quantidade] = Console.ReadLine();
+
+                Console.Write("Digite o telefone: ");
+                telefones[quantidade] = Console.ReadLine();
+
+                Console.WriteLine("Contato cadastrado com sucesso!");
+
+                quantidade++;
+            }
+            else
+            {
+                Console.WriteLine("Agenda cheia! Só é possível cadastrar 5 contatos");
+            }
+                break;
+        case 2:
+            Console.WriteLine("\n--- LISTA DE CONTATOS ---");
+            if(quantidade == 0)
+            {
+                Console.WriteLine("Nenhum contato cadastrado ainda.");
+            }
+            else
+            {
+                for(int i = 0; i < quantidade; i++)
+                {
+                    Console.WriteLine($"{i + 1} - Nome: {nomes[i]} | Telefone: {telefones[i]}");
+                }
+            }
+            break;
+        case 3:
+            continuar = false;
+            Console.WriteLine("Encerrando o programa!");
+            break;
+        default:
+            Console.WriteLine("Opção Inválida!");
+            break;
+    }
 }
 
 
 
-
-Console.ReadKey();
