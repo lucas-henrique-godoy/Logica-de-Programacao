@@ -1,9 +1,23 @@
 ﻿
 
-//Params keyword = parametro de um  método que recebe uma variávelnumero de parametros, o tipo de parametro deve ser unico
+//Params keyword = parametro de um  método que recebe um variável numero de parametros, o tipo de parametro deve ser unico
 
 
+double total = CheckOut(50, 40);
+Console.WriteLine($"Valor total da compra foi de: {total}");
 
+
+static double CheckOut(params double[]precos)
+{
+    double totalGeral = 0;
+
+    foreach (double preco in precos)
+    {
+        totalGeral += preco;
+    }
+
+    return totalGeral;
+}
 
 
 
