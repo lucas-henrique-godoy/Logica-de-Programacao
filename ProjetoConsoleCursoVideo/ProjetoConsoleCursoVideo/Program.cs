@@ -1,27 +1,37 @@
 ﻿
 
-//Params keyword = parametro de um  método que recebe um variável numero de parametros, o tipo de parametro deve ser unico
+//  TRY CATCH FINALLY
 
 
-double total = CheckOut(50, 40);
-Console.WriteLine($"Valor total da compra foi de: {total}");
+int num1;
+int num2;
+int num3;
+int resultado;
 
 
-static double CheckOut(params double[]precos)
+try
 {
-    double totalGeral = 0;
+    Console.WriteLine("Digite o primeiro número: ");
+    num1 = Convert.ToInt32(Console.ReadLine());
 
-    foreach (double preco in precos)
-    {
-        totalGeral += preco;
-    }
+    Console.WriteLine("Digite o segundo número: ");
+    num2 = Convert.ToInt32(Console.ReadLine());
 
-    return totalGeral;
+
+    resultado = num1 / num2;
+
+    Console.WriteLine($"  {num1} / {num2} = {resultado} ");
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
+finally
+{
+    Console.WriteLine("Fim!");
 }
 
 
-
-    
 
 
 
