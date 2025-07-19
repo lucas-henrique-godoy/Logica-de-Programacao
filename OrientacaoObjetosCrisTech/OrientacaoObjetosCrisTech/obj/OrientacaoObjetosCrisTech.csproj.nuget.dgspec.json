@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\Logica-de-Programacao\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\Logica-de-Programacao\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\Logica-de-Programacao\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj",
         "projectName": "OrientacaoObjetosCrisTech",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\Logica-de-Programacao\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\Logica-CrisTech\\Logica-de-Programacao\\OrientacaoObjetosCrisTech\\OrientacaoObjetosCrisTech\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

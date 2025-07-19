@@ -1,0 +1,15 @@
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\bin\Debug\net9.0\OrientacaoObjetosCrisTech.exe
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\bin\Debug\net9.0\OrientacaoObjetosCrisTech.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\bin\Debug\net9.0\OrientacaoObjetosCrisTech.runtimeconfig.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\bin\Debug\net9.0\OrientacaoObjetosCrisTech.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\bin\Debug\net9.0\OrientacaoObjetosCrisTech.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.sourcelink.json
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\refint\OrientacaoObjetosCrisTech.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\OrientacaoObjetosCrisTech.genruntimeconfig.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\Logica-CrisTech\Logica-de-Programacao\OrientacaoObjetosCrisTech\OrientacaoObjetosCrisTech\obj\Debug\net9.0\ref\OrientacaoObjetosCrisTech.dll

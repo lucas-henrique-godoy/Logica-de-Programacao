@@ -1,0 +1,40 @@
+﻿
+
+namespace OrientacaoObjetosCrisTech
+{
+    public class ContaBancaria
+    {
+        public string Titular { get; set; }
+        public string NumeroConta { get; set; }
+        public string Agencia  { get; set; }
+        public double Saldo { get; set; }
+
+        public void Depositar(double valor)
+        {
+            this.Saldo += valor;
+            Console.WriteLine($"Depósito de: {valor} realizado. Saldo atual: R${this.Saldo}");
+        }
+
+        public void Sacar(double valor)
+        {
+            if (valor <= this.Saldo)
+            { 
+                this.Saldo -= valor;
+                Console.WriteLine($"Saque de R${valor} realizado. Saldo tual: {this.Saldo}");
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente");
+            }
+        }
+
+        public void MostrarDados()
+        {
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine($"Titular: {this.Titular}");
+            Console.WriteLine($"Conta: {this.NumeroConta} - Agência: {this.Agencia}");
+            Console.WriteLine($"Saldo: {this.Saldo}");
+            Console.WriteLine("----------------------------------");
+        }
+    }
+}
