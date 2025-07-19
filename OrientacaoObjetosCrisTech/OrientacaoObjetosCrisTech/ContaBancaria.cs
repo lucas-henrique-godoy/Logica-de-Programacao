@@ -2,12 +2,16 @@
 
 namespace OrientacaoObjetosCrisTech
 {
-    public class ContaBancaria
+    class ContaBancaria
     {
-        public string Titular { get; set; }
+        public Cliente Titular { get; set; }
         public string NumeroConta { get; set; }
-        public string Agencia  { get; set; }
-        public double Saldo { get; set; }
+        public string Agencia  { get; set; }        
+        public double Saldo {  get; private set; } 
+                
+                
+
+
 
         public void Depositar(double valor)
         {
@@ -31,7 +35,7 @@ namespace OrientacaoObjetosCrisTech
         public void MostrarDados()
         {
             Console.WriteLine("----------------------------------");
-            Console.WriteLine($"Titular: {this.Titular}");
+            Console.WriteLine($"Titular: {this.Titular.Nome} - CPF: {Titular.CPF}");
             Console.WriteLine($"Conta: {this.NumeroConta} - Agência: {this.Agencia}");
             Console.WriteLine($"Saldo: {this.Saldo}");
             Console.WriteLine("----------------------------------");
