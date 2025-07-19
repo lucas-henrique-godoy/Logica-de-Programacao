@@ -33,7 +33,7 @@ while(continuar)
             }
             else
             {
-                Console.WriteLine("Agenda cheia! Só é possível cadastrar 5 contatos");
+                Console.WriteLine("Agenda cheia! Só é possível cadastrar 5 contatos!");
             }
                 break;
         case 2:
