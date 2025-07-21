@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrientacaoObjetosCrisTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ccbf7f48255b54c3a750ee2edaae15cfbce34b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f606d27206558e324d299ba572a130c8bc7a65db")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrientacaoObjetosCrisTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrientacaoObjetosCrisTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

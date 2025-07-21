@@ -7,8 +7,7 @@ namespace OrientacaoObjetosCrisTech
         public Cliente Titular { get; set; }
         public string NumeroConta { get; set; }
         public string Agencia  { get; set; }        
-        public double Saldo {  get; private set; } 
-                
+        public double Saldo {  get; protected set; }           
                 
 
 

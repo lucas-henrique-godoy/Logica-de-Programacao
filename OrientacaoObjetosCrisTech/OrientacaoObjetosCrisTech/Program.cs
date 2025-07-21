@@ -10,7 +10,6 @@ cliente.CPF = "123456789";
 
 ContaBancaria conta = new ContaBancaria();
 
-ContaCorrente contaCorrente = new ContaCorrente();
 
 
 conta.Titular = cliente;
