@@ -34,10 +34,10 @@ namespace OrientacaoObjetosCrisTech
 
         public override void MostrarDados()
         {
-            Console.WriteLine("----------------Dados------------------");
+            Console.WriteLine("----------------Dados Corrente------------------");
             Console.WriteLine($"Titular: {this.Titular.Nome} - CPF: {Titular.CPF}");
             Console.WriteLine($"Conta: {this.NumeroConta} - Agência: {this.Agencia}");
-            Console.WriteLine($"Cheuqe especial: {LimiteChequeEspecial}");
+            Console.WriteLine($"Cheque especial: {LimiteChequeEspecial}");
             Console.WriteLine($"Saldo: {this.Saldo}");
             Console.WriteLine("----------------------------------");
         }
