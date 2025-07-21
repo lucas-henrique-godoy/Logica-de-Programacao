@@ -31,7 +31,7 @@ namespace OrientacaoObjetosCrisTech
             }
         }
 
-        public void MostrarDados()
+        public virtual void MostrarDados()
         {
             Console.WriteLine("----------------------------------");
             Console.WriteLine($"Titular: {this.Titular.Nome} - CPF: {Titular.CPF}");

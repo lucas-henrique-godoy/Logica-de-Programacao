@@ -17,5 +17,15 @@ namespace OrientacaoObjetosCrisTech
             Saldo += rendimento;
             Console.WriteLine($"Rendimento de R${rendimento} aplicado. Saldo atual: R${Saldo}");
         }
+
+        public override void MostrarDados()
+        {
+            Console.WriteLine("----------------Dados------------------");
+            Console.WriteLine($"Titular: {this.Titular.Nome} - CPF: {Titular.CPF}");
+            Console.WriteLine($"Conta: {this.NumeroConta} - Agência: {this.Agencia}");
+            Console.WriteLine($"Taxa de Rendimento: {TaxaRendimento}");
+            Console.WriteLine($"Saldo: {this.Saldo}");
+            Console.WriteLine("----------------------------------");
+        }
     }
 }

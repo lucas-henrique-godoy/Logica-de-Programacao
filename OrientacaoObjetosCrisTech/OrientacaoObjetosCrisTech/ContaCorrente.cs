@@ -31,5 +31,15 @@ namespace OrientacaoObjetosCrisTech
                 Console.WriteLine("--------------------------");
             }
         }
+
+        public override void MostrarDados()
+        {
+            Console.WriteLine("----------------Dados------------------");
+            Console.WriteLine($"Titular: {this.Titular.Nome} - CPF: {Titular.CPF}");
+            Console.WriteLine($"Conta: {this.NumeroConta} - Agência: {this.Agencia}");
+            Console.WriteLine($"Cheuqe especial: {LimiteChequeEspecial}");
+            Console.WriteLine($"Saldo: {this.Saldo}");
+            Console.WriteLine("----------------------------------");
+        }
     }
 }
