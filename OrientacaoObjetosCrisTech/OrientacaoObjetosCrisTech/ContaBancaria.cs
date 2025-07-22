@@ -4,7 +4,7 @@ namespace OrientacaoObjetosCrisTech
 {
     class ContaBancaria
     {
-        public Cliente Titular { get; set; }
+        public Cliente Titular { get; set; } //Agregação formado pelo objeto da classe Cliente
         public string NumeroConta { get; set; }
         public string Agencia  { get; set; }        
         public double Saldo {  get; protected set; }           
