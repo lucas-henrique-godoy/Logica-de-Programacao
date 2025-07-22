@@ -17,8 +17,7 @@ ContaCorrente contaCorrente = new ContaCorrente
     LimiteChequeEspecial = 500
 };
 
-contaCorrente.Depositar(1000);
-contaCorrente.MostrarDados();
+
 
 
 ContaPoupanca contaPoupanca = new ContaPoupanca
@@ -29,8 +28,11 @@ ContaPoupanca contaPoupanca = new ContaPoupanca
     TaxaRendimento = 0.01
 };
 
-contaPoupanca.Depositar(1000);
-contaPoupanca.MostrarDados();
+contaCorrente.Depositar(500);
+contaCorrente.Depositar(500, "OLÁ MUNDO");
+
+
+
 
 
 

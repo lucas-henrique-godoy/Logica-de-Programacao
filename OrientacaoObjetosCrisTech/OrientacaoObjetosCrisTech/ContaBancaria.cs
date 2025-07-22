@@ -18,6 +18,15 @@ namespace OrientacaoObjetosCrisTech
             Console.WriteLine($"Depósito de: {valor} realizado. Saldo atual: R${this.Saldo}");
         }
 
+        public void Depositar(double valor, string descricao)
+        {
+            if (valor >  0) 
+            {
+                this.Saldo += valor;
+                Console.WriteLine($"Depósito de: {valor} realizado. Descrição: {descricao} Saldo atual: R${this.Saldo}");
+            }
+        }
+
         public void Sacar(double valor)
         {
             if (valor <= this.Saldo)
