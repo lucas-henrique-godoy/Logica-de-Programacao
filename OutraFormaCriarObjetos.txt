@@ -1,0 +1,9 @@
+ContaCorrente contaCorrente = new ContaCorrente()
+{
+    NumeroConta = "001245",
+    Agencia = "0001",
+    Titular = cliente,
+    LimiteChequeEspecial = 500	
+};
+
+contaCorrente.PodeSacar(100);
