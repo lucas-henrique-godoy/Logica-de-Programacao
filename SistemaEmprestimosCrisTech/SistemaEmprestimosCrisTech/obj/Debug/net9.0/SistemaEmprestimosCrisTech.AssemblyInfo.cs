@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaEmprestimosCrisTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caf9496c9d6642f1763b8d46b7046ab3461b35f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb58c7ecc15b330565e433f38fcdab26289abb6a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaEmprestimosCrisTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaEmprestimosCrisTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

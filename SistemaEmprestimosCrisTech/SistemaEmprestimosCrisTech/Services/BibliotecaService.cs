@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaEmprestimosCrisTech.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,27 @@ namespace SistemaEmprestimosCrisTech.Services
 {
     class BibliotecaService
     {
+        
+        private List<Livro> livros = new List<Livro>();
+        private List<Usuario> usuarios = new List<Usuario>();
+        private List<Emprestimo> emprestimos = new List<Emprestimo>();
+
+        private int livroIdCounter = 1;
+        private int usuarioIdCounter = 1;
+        private int emprestimoIdCounter = 1;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         public void MenuPrincipal() 
         {
             while (true)
@@ -60,7 +82,7 @@ namespace SistemaEmprestimosCrisTech.Services
                         AdicionarLivro();
                         break;
                     case 2:
-                        ListarLivro();
+                        ListarLivros();
                         break;
                     case 3:
                         AtualizarLivro();
@@ -69,7 +91,7 @@ namespace SistemaEmprestimosCrisTech.Services
                         RemoverLivro();
                         break;
                     case 0:
-                        MenuPrincipal();
+                        return;
                         break;
                     default:
                         Console.WriteLine("Opção Inválida!");
@@ -80,12 +102,76 @@ namespace SistemaEmprestimosCrisTech.Services
 
         private void MenuUsuarios() 
         {
-        
+            while (true)
+            {
+                Console.WriteLine("\n ========== Gerencimento de Usuários ==========");
+                Console.WriteLine("1. Adicionar Usuário");
+                Console.WriteLine("2. Listar Usuários");
+                Console.WriteLine("3. Atualizar Usuário");
+                Console.WriteLine("4. Remover Usuário");
+                Console.WriteLine("0. Voltar");
+                Console.Write("Escolha: ");
+                int opcao = Convert.ToInt32(Console.ReadLine());
+
+                switch (opcao)
+                {
+                    case 1:
+                        AdicionarUsuario();
+                        break;
+                    case 2:
+                        ListarUsuarios();
+                        break;
+                    case 3:
+                        AtualizarUsuario();
+                        break;
+                    case 4:
+                        RemoverUsuario();
+                        break;
+                    case 0:
+                        return;
+                        break;
+                    default:
+                        Console.WriteLine("Opção Inválida!");
+                        break;
+                }
+            }
         }
 
         private void MenuEmprestimos()
-        { 
-        
+        {
+            while (true)
+            {
+                Console.WriteLine("\n ========== Gerencimento de Empréstimos ==========");
+                Console.WriteLine("1. Adicionar Empréstimo");
+                Console.WriteLine("2. Listar Empréstimos Ativos");
+                Console.WriteLine("3. Devolver Livro");
+                Console.WriteLine("4. Histórico de Empréstimos por Usuário");
+                Console.WriteLine("0. Voltar");
+                Console.Write("Escolha: ");
+                int opcao = Convert.ToInt32(Console.ReadLine());
+
+                switch (opcao)
+                {
+                    case 1:
+                        AdicionarEmprestimo();
+                        break;
+                    case 2:
+                        ListarEmprestimosAtivos();
+                        break;
+                    case 3:
+                        DevolverLivro();
+                        break;
+                    case 4:
+                        HistoricoEmprestimosUsuario();
+                        break;
+                    case 0:
+                        return;
+                        break;
+                    default:
+                        Console.WriteLine("Opção Inválida!");
+                        break;
+                }
+            }
         }
 
 
