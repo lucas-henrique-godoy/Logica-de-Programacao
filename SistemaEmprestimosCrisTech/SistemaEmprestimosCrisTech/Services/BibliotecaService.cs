@@ -20,16 +20,6 @@ namespace SistemaEmprestimosCrisTech.Services
 
 
 
-
-
-
-
-
-
-
-
-
-
         public void MenuPrincipal() 
         {
             while (true)
@@ -171,6 +161,33 @@ namespace SistemaEmprestimosCrisTech.Services
                         Console.WriteLine("Opção Inválida!");
                         break;
                 }
+            }
+        }
+
+
+        
+        
+        //Métodods Livros
+        private void AdicionarLivro()
+        {
+            Console.Write("Título: ");
+            string titulo = Console.ReadLine();
+
+            Console.WriteLine("Autor: ");
+            string autor = Console.ReadLine();
+
+            livros.Add(new Livro { Id = livroIdCounter ++, Titulo = titulo, Autor = autor});
+            Console.WriteLine("Livro Adicionado com sucesso!");
+        }
+
+        private void ListarLivros()
+        {
+            Console.WriteLine("\nLista de Livros:");
+
+            foreach (Livro livro in livros)
+            {
+                string status = livro.Disponivel ? "Disponível" : "Emprestado";
+                Console.WriteLine($"Id: {livro.Id} | Título: {livro.Titulo} | Autor: {livro.Autor} | ");
             }
         }
 
