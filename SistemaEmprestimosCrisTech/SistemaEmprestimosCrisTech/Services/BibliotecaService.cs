@@ -187,7 +187,7 @@ namespace SistemaEmprestimosCrisTech.Services
             foreach (Livro livro in livros)
             {
                 string status = livro.Disponivel ? "Disponível" : "Emprestado";
-                Console.WriteLine($"Id: {livro.Id} | Título: {livro.Titulo} | Autor: {livro.Autor} | ");
+                Console.WriteLine($"Id: {livro.Id} | Título: {livro.Titulo} | Autor: {livro.Autor} | {status}");
             }
         }
 
