@@ -10,9 +10,9 @@ namespace SistemaEmprestimosCrisTech.Services
     class BibliotecaService
     {
         
-        private List<Livro> livros = new List<Livro>();
-        private List<Usuario> usuarios = new List<Usuario>();
-        private List<Emprestimo> emprestimos = new List<Emprestimo>();
+        private List<Livro> livros = new List<Livro>(); //Variável de lista que guardará os livros
+        private List<Usuario> usuarios = new List<Usuario>(); //Variável de lista que guardará os usuarios
+        private List<Emprestimo> emprestimos = new List<Emprestimo>(); //Variável de lista que guardará os empréstimos
 
         private int livroIdCounter = 1;
         private int usuarioIdCounter = 1;
