@@ -11,25 +11,25 @@ namespace SistemaEmprestimosCrisTech.Services
     {
         
         private List<Livro> livros = new List<Livro>(); //Variável de lista que guardará os livros
-        private List<Usuario> usuarios = new List<Usuario>(); //Variável de lista que guardará os usuarios
+        private List<Usuario> usuarios = new List<Usuario>(); //Variável de lista que guardará os usuários
         private List<Emprestimo> emprestimos = new List<Emprestimo>(); //Variável de lista que guardará os empréstimos
 
-        private int livroIdCounter = 1;
-        private int usuarioIdCounter = 1;
-        private int emprestimoIdCounter = 1;
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        private int livroIdCounter = 1; //Variável que irá incrementar os ids de livros
+        private int usuarioIdCounter = 1;//Variável que irá incrementar os ids de usuários
+        private int emprestimoIdCounter = 1;//Variável que irá incrementar os ids de empréstimos
+
+
+
+
+
+
+
+
+
+
+
+
+
         public void MenuPrincipal() 
         {
             while (true)
