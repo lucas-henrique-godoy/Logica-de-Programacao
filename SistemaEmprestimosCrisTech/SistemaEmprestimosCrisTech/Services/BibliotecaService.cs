@@ -173,7 +173,7 @@ namespace SistemaEmprestimosCrisTech.Services
             Console.Write("Título: ");
             string titulo = Console.ReadLine();
 
-            Console.WriteLine("Autor: ");
+            Console.Write("Autor: ");
             string autor = Console.ReadLine();
 
             livros.Add(new Livro { Id = livroIdCounter ++, Titulo = titulo, Autor = autor});
