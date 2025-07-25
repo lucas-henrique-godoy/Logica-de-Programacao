@@ -103,27 +103,27 @@ namespace SistemaEmprestimosCrisTech.Services
                 Console.Write("Escolha: ");
                 int opcao = Convert.ToInt32(Console.ReadLine());
 
-                //switch (opcao)
-                //{
-                //    case 1:
-                //        AdicionarUsuario();
-                //        break;
-                //    case 2:
-                //        ListarUsuarios();
-                //        break;
-                //    case 3:
-                //        AtualizarUsuario();
-                //        break;
-                //    case 4:
-                //        RemoverUsuario();
-                //        break;
-                //    case 0:
-                //        return;
-                //        break;
-                //    default:
-                //        Console.WriteLine("Opção Inválida!");
-                //        break;
-                //}
+                switch (opcao)
+                {
+                    case 1:
+                        AdicionarUsuario();
+                        break;
+                    case 2:
+                        ListarUsuarios();
+                        break;
+                    case 3:
+                        AtualizarUsuario();
+                        break;
+                    case 4:
+                        RemoverUsuario();
+                        break;
+                    case 0:
+                        return;
+                        break;
+                    default:
+                        Console.WriteLine("Opção Inválida!");
+                        break;
+                }
             }
         }
 
@@ -214,7 +214,6 @@ namespace SistemaEmprestimosCrisTech.Services
             }
         }
 
-
         private void RemoverLivro()
         {
             Console.WriteLine("Id do livro a remover: ");
@@ -223,5 +222,36 @@ namespace SistemaEmprestimosCrisTech.Services
             livros.RemoveAll(l => l.Id == id);
             Console.WriteLine("Livro Removido!");
         }
-    }
+
+        //Métodos Usuários
+
+        private void AdicionarUsuario()
+        {
+            Console.Write("Nome: ");
+            string nome = Console.ReadLine();
+
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+
+            usuarios.Add(new Usuario { Id = usuarioIdCounter++, Nome = nome, Email = email });
+            Console.WriteLine("Usuário adicionado com sucesso!");
+        }
+
+        private void ListarUsuarios()
+        {
+
+        }
+
+        private void AtualizarUsuario()
+        {
+
+        }
+
+
+        private void RemoverUsuario() 
+        { 
+        
+        }
+
+     }
 }
