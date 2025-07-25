@@ -103,27 +103,27 @@ namespace SistemaEmprestimosCrisTech.Services
                 Console.Write("Escolha: ");
                 int opcao = Convert.ToInt32(Console.ReadLine());
 
-                switch (opcao)
-                {
-                    case 1:
-                        AdicionarUsuario();
-                        break;
-                    case 2:
-                        ListarUsuarios();
-                        break;
-                    case 3:
-                        AtualizarUsuario();
-                        break;
-                    case 4:
-                        RemoverUsuario();
-                        break;
-                    case 0:
-                        return;
-                        break;
-                    default:
-                        Console.WriteLine("Opção Inválida!");
-                        break;
-                }
+                //switch (opcao)
+                //{
+                //    case 1:
+                //        AdicionarUsuario();
+                //        break;
+                //    case 2:
+                //        ListarUsuarios();
+                //        break;
+                //    case 3:
+                //        AtualizarUsuario();
+                //        break;
+                //    case 4:
+                //        RemoverUsuario();
+                //        break;
+                //    case 0:
+                //        return;
+                //        break;
+                //    default:
+                //        Console.WriteLine("Opção Inválida!");
+                //        break;
+                //}
             }
         }
 
@@ -140,27 +140,27 @@ namespace SistemaEmprestimosCrisTech.Services
                 Console.Write("Escolha: ");
                 int opcao = Convert.ToInt32(Console.ReadLine());
 
-                switch (opcao)
-                {
-                    case 1:
-                        AdicionarEmprestimo();
-                        break;
-                    case 2:
-                        ListarEmprestimosAtivos();
-                        break;
-                    case 3:
-                        DevolverLivro();
-                        break;
-                    case 4:
-                        HistoricoEmprestimosUsuario();
-                        break;
-                    case 0:
-                        return;
-                        break;
-                    default:
-                        Console.WriteLine("Opção Inválida!");
-                        break;
-                }
+                //switch (opcao)
+                //{
+                //    case 1:
+                //        AdicionarEmprestimo();
+                //        break;
+                //    case 2:
+                //        ListarEmprestimosAtivos();
+                //        break;
+                //    case 3:
+                //        DevolverLivro();
+                //        break;
+                //    case 4:
+                //        HistoricoEmprestimosUsuario();
+                //        break;
+                //    case 0:
+                //        return;
+                //        break;
+                //    default:
+                //        Console.WriteLine("Opção Inválida!");
+                //        break;
+                //}
             }
         }
 
@@ -191,6 +191,37 @@ namespace SistemaEmprestimosCrisTech.Services
             }
         }
 
+        private void AtualizarLivro()
+        {
+            Console.WriteLine("Id do livro a atualizar: ");
+            int id = Convert.ToInt32(Console.ReadLine());
 
+            Livro livro = livros.FirstOrDefault(l => l.Id == id); //Esse código procura o primeiro objeto do tipo Livro na lista livros cujo Id seja igual ao valor da variável id; se não encontrar, atribui null à variável livro.
+        
+            if( livro != null )
+            {
+                Console.Write("Novo Título: ");
+                livro.Titulo = Console.ReadLine();
+
+                Console.Write("Novo Autor: ");
+                livro.Autor = Console.ReadLine();
+
+                Console.WriteLine("Livro atualizado!");
+            }
+            else
+            {
+                Console.WriteLine("Livro não localizado!");
+            }
+        }
+
+
+        private void RemoverLivro()
+        {
+            Console.WriteLine("Id do livro a remover: ");
+            int id = Convert.ToInt32(Console.ReadLine());
+
+            livros.RemoveAll(l => l.Id == id);
+            Console.WriteLine("Livro Removido!");
+        }
     }
 }
