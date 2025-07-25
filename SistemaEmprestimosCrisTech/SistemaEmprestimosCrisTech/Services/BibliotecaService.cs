@@ -165,9 +165,10 @@ namespace SistemaEmprestimosCrisTech.Services
         }
 
 
-        
-        
-        //Métodods Livros
+
+
+        #region Métodos Livros
+
         private void AdicionarLivro()
         {
             Console.Write("Título: ");
@@ -223,8 +224,11 @@ namespace SistemaEmprestimosCrisTech.Services
             Console.WriteLine("Livro removido!");
         }
 
+        #endregion
 
-        //Métodos Usuários
+
+        #region Métodos Usuários
+
         private void AdicionarUsuario()
         {
             Console.Write("Nome: ");
@@ -270,7 +274,6 @@ namespace SistemaEmprestimosCrisTech.Services
             }
         }
 
-
         private void RemoverUsuario() 
         {
             Console.WriteLine("ID do usuário a remover: ");
@@ -280,5 +283,7 @@ namespace SistemaEmprestimosCrisTech.Services
             Console.WriteLine("Usuário removido!");
         }
 
-     }
+        #endregion
+
+    }
 }
