@@ -352,7 +352,10 @@ namespace SistemaEmprestimosCrisTech.Services
 
         private void HistoricoEmprestimosUsuario()
         {
-            
+            Console.WriteLine("Id do Usuário: ");
+            int id = Convert.ToInt32(Console.ReadLine());
+
+
         }
 
         #endregion
