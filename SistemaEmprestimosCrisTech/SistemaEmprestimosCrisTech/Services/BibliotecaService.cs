@@ -300,7 +300,7 @@ namespace SistemaEmprestimosCrisTech.Services
                 return;
             }
 
-            Console.WriteLine("Id do usuário: ");
+            Console.WriteLine("Id do Usuário: ");
             int usuarioId = Convert.ToInt32(Console.ReadLine());
 
             if (!usuarios.Any(u => u.Id == usuarioId))
@@ -329,20 +329,31 @@ namespace SistemaEmprestimosCrisTech.Services
             }
         }
 
-
         private void DevolverLivro()
         {
+            Console.WriteLine("Id do Empréstimo: ");
+            int id = Convert.ToInt32(Console.ReadLine());
 
+            Emprestimo emprestimo = emprestimos.FirstOrDefault(e => e.Id == id && e.DataDevolucao == null);
+
+            if (emprestimo == null)
+            {
+                Console.WriteLine("Empréstimo não  encontrado ou já devolvido!");
+                return;
+            }
+
+            emprestimo.DataDevolucao = DateTime.Now;
+
+            Livro livro = livros.FirstOrDefault(l => l.Id == emprestimo.LivroId);
+            livro.Disponivel = true;
+
+            Console.WriteLine("Livro devolvido com sucesso!");
         }
 
         private void HistoricoEmprestimosUsuario()
         {
-
+            
         }
-
-
-
-
 
         #endregion
 
