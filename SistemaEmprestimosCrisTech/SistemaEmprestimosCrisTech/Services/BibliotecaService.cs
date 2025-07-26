@@ -287,7 +287,13 @@ namespace SistemaEmprestimosCrisTech.Services
 
         #region Métodos Empréstimos
 
+        private void AdicionarEmprestimo()
+        {
+            Console.Write("ID do  Livro:  ");
+            int livroId = Convert.ToInt32(Console.ReadLine());
 
+           Livro livro = livros.FirstOrDefault(l => l.Id == livroId && l.Disponivel);
+        }
 
 
 
