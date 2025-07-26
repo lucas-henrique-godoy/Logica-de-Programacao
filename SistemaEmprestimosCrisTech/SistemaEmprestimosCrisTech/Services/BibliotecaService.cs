@@ -294,7 +294,7 @@ namespace SistemaEmprestimosCrisTech.Services
 
             Livro livro = livros.FirstOrDefault(l => l.Id == livroId && l.Disponivel);
 
-            if (livro != null) 
+            if (livro == null) 
             {
                 Console.WriteLine("Livro não disponível ou não encontrado!");
                 return;
@@ -353,8 +353,18 @@ namespace SistemaEmprestimosCrisTech.Services
         private void HistoricoEmprestimosUsuario()
         {
             Console.WriteLine("Id do Usuário: ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            int usuarioId = Convert.ToInt32(Console.ReadLine());
 
+            List<Emprestimo> historico = emprestimos.Where(e => e.UsuarioId == usuarioId).ToList();
+
+            foreach (Emprestimo emprestimo in historico)
+            {
+                Livro livro = livros.FirstOrDefault(l => l.Id == emprestimo.LivroId);
+
+                string devolucao = emprestimo.DataDevolucao.HasValue ? emprestimo.DataDevolucao?.ToShortDateString() : "Em aberto!";
+                
+                Console.WriteLine($"Livro: {livro.Titulo} | Empréstimo: {emprestimo.DataEmprestimo.ToShortDateString()} | Devolução: {devolucao}");
+            }
 
         }
 
