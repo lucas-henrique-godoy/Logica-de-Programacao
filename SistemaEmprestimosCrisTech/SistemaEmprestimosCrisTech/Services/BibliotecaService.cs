@@ -140,27 +140,27 @@ namespace SistemaEmprestimosCrisTech.Services
                 Console.Write("Escolha: ");
                 int opcao = Convert.ToInt32(Console.ReadLine());
 
-                //switch (opcao)
-                //{
-                //    case 1:
-                //        AdicionarEmprestimo();
-                //        break;
-                //    case 2:
-                //        ListarEmprestimosAtivos();
-                //        break;
-                //    case 3:
-                //        DevolverLivro();
-                //        break;
-                //    case 4:
-                //        HistoricoEmprestimosUsuario();
-                //        break;
-                //    case 0:
-                //        return;
-                //        break;
-                //    default:
-                //        Console.WriteLine("Opção Inválida!");
-                //        break;
-                //}
+                switch (opcao)
+                {
+                    case 1:
+                        AdicionarEmprestimo();
+                        break;
+                    case 2:
+                        ListarEmprestimosAtivos();
+                        break;
+                    case 3:
+                        DevolverLivro();
+                        break;
+                    case 4:
+                        HistoricoEmprestimosUsuario();
+                        break;
+                    case 0:
+                        return;
+                        break;
+                    default:
+                        Console.WriteLine("Opção Inválida!");
+                        break;
+                }
             }
         }
 
@@ -282,6 +282,17 @@ namespace SistemaEmprestimosCrisTech.Services
             usuarios.RemoveAll(u => u.Id == id);
             Console.WriteLine("Usuário removido!");
         }
+
+        #endregion
+
+        #region Métodos Empréstimos
+
+
+
+
+
+
+
 
         #endregion
 
