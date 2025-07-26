@@ -306,9 +306,39 @@ namespace SistemaEmprestimosCrisTech.Services
             if (!usuarios.Any(u => u.Id == usuarioId))
             {
                 Console.WriteLine("Usuário não encontrado!");
+                return;
+            }
+
+            emprestimos.Add(new Emprestimo { Id = emprestimoIdCounter++, LivroId = livroId, UsuarioId = usuarioId});
+
+            livro.Disponivel = false;
+
+            Console.WriteLine("Empréstimo registrado!");
+        }
+
+        private void ListarEmprestimosAtivos()
+        {
+            List<Emprestimo> emprestimosAtivos = emprestimos.Where(e => e.DataDevolucao == null).ToList();
+
+            foreach(Emprestimo emprestimo in emprestimosAtivos)
+            {
+                Usuario usuario = usuarios.FirstOrDefault(u => u.Id == emprestimo.UsuarioId);
+                Livro livro = livros.FirstOrDefault(l => l.Id == emprestimo.LivroId);
+
+                Console.WriteLine($"Id Empréstimo: {emprestimo.Id} | Livro: {livro.Titulo} | Usuário: {usuario.Nome} | Data Empréstimo: {emprestimo.DataEmprestimo.ToShortDateString()}");
             }
         }
 
+
+        private void DevolverLivro()
+        {
+
+        }
+
+        private void HistoricoEmprestimosUsuario()
+        {
+
+        }
 
 
 
