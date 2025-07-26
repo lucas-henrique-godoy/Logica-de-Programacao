@@ -289,10 +289,24 @@ namespace SistemaEmprestimosCrisTech.Services
 
         private void AdicionarEmprestimo()
         {
-            Console.Write("ID do  Livro:  ");
+            Console.Write("Id do  Livro:  ");
             int livroId = Convert.ToInt32(Console.ReadLine());
 
-           Livro livro = livros.FirstOrDefault(l => l.Id == livroId && l.Disponivel);
+            Livro livro = livros.FirstOrDefault(l => l.Id == livroId && l.Disponivel);
+
+            if (livro != null) 
+            {
+                Console.WriteLine("Livro não disponível ou não encontrado!");
+                return;
+            }
+
+            Console.WriteLine("Id do usuário: ");
+            int usuarioId = Convert.ToInt32(Console.ReadLine());
+
+            if (!usuarios.Any(u => u.Id == usuarioId))
+            {
+                Console.WriteLine("Usuário não encontrado!");
+            }
         }
 
 
